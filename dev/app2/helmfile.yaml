@@ -1,0 +1,7 @@
+releases:
+- name: app2
+  namespace: app2
+  values:
+  - values.yaml
+  chart: redis/redis
+  version: 20.11.4
