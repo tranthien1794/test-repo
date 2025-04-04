@@ -1,7 +1,0 @@
-releases:
-- name: app1
-  namespace: app1
-  values:
-  - values-app1.yaml
-  chart: oci://registry-1.docker.io/bitnamicharts/redis
-  version: 20.11.4
