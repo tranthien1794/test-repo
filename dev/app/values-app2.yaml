@@ -1,7 +1,8 @@
 argocd_release:
   name: app2
   namespace: app2
-  chart: oci://registry-1.docker.io/bitnamicharts/redis
+  chart: registry-1.docker.io/bitnamicharts
+  chart: redis
   version: 20.11.4
 # Copyright Broadcom, Inc. All Rights Reserved.
 # SPDX-License-Identifier: APACHE-2.0
