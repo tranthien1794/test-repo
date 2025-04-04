@@ -1,0 +1,8 @@
+{
+  "argocd_release": {
+    "name": "app1",
+    "namespace": "app1",
+    "chart": "oci://registry-1.docker.io/bitnamicharts/redis",
+    "version": "20.11.4"
+  }
+}
