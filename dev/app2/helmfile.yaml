@@ -3,5 +3,5 @@ releases:
   namespace: app2
   values:
   - values.yaml
-  chart: redis/redis
+  chart: oci://registry-1.docker.io/bitnamicharts/redis
   version: 20.11.4
