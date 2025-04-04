@@ -6,6 +6,6 @@ releases:
   - name: prometheus
     namespace: monitoring
     chart: prometheus-community/prometheus
-    version: 15.0.0
+    version: 27.8.0
     values:
       - values.yaml  # Optional: custom values file in the same repo
