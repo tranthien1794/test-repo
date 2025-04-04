@@ -9,10 +9,3 @@ releases:
   - app/values-app1.yaml
   chart: oci://registry-1.docker.io/bitnamicharts/redis
   version: 20.11.4
-
-- name: app2
-  namespace: app2
-  values:
-  - app/values-app2.yaml
-  chart: oci://registry-1.docker.io/bitnamicharts/redis
-  version: 20.11.4
