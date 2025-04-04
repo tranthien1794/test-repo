@@ -1,0 +1,6 @@
+argocd_release:
+  name: app3
+  namespace: app3
+  repo: https://helm.github.io/examples
+  chart: hello-world
+  version: 0.1.0
